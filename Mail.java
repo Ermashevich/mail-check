@@ -11,7 +11,7 @@ public class Mail {
 
         System.setProperty("webdriver.gecko.driver", "/Users/romanermasevic/Selenium/Drivers/geckodriver");
         WebDriver driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         driver.get("https://www.tut.by");
