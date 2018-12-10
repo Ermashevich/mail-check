@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Bug {
+public class Mail {
     public static void main(String[] args) {
 
         System.setProperty("webdriver.gecko.driver", "/Users/romanermasevic/Selenium/Drivers/geckodriver");
